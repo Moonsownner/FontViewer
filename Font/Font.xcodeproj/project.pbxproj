@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E53C0D201D41B96800A0F6F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D1F1D41B96800A0F6F5 /* AppDelegate.swift */; };
-		E53C0D221D41B96800A0F6F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D211D41B96800A0F6F5 /* ViewController.swift */; };
-		E53C0D251D41B96800A0F6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53C0D231D41B96800A0F6F5 /* Main.storyboard */; };
+		DF62BC1A262A7403D91CC842 /* Pods_Font.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7551A3FBC3D10B62B64BD3 /* Pods_Font.framework */; };
 		E53C0D271D41B96800A0F6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53C0D261D41B96800A0F6F5 /* Assets.xcassets */; };
 		E53C0D2A1D41B96800A0F6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53C0D281D41B96800A0F6F5 /* LaunchScreen.storyboard */; };
+		E53C0D3A1D41BB5400A0F6F5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D341D41BB5400A0F6F5 /* Cell.swift */; };
+		E53C0D3B1D41BB5400A0F6F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D351D41BB5400A0F6F5 /* DetailViewController.swift */; };
+		E53C0D3C1D41BB5400A0F6F5 /* Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D361D41BB5400A0F6F5 /* Expand.swift */; };
+		E53C0D3D1D41BB5400A0F6F5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D371D41BB5400A0F6F5 /* ListTableViewController.swift */; };
+		E53C0D3E1D41BB5400A0F6F5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D381D41BB5400A0F6F5 /* RootViewController.swift */; };
+		E53C0D3F1D41BB5400A0F6F5 /* SecondaryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D391D41BB5400A0F6F5 /* SecondaryListController.swift */; };
+		E53C0D441D41BBBB00A0F6F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C0D431D41BBBB00A0F6F5 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D9FBA5E6D6CE1AD9DE4C8A /* Pods-Font.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Font.release.xcconfig"; path = "Pods/Target Support Files/Pods-Font/Pods-Font.release.xcconfig"; sourceTree = "<group>"; };
+		6F7551A3FBC3D10B62B64BD3 /* Pods_Font.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Font.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CDA930F0E3761B318869F7 /* Pods-Font.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Font.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Font/Pods-Font.debug.xcconfig"; sourceTree = "<group>"; };
 		E53C0D1C1D41B96800A0F6F5 /* Font.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Font.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E53C0D1F1D41B96800A0F6F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E53C0D211D41B96800A0F6F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E53C0D241D41B96800A0F6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E53C0D261D41B96800A0F6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53C0D291D41B96800A0F6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53C0D2B1D41B96800A0F6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53C0D331D41BB5400A0F6F5 /* Font-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Font-Bridging-Header.h"; sourceTree = "<group>"; };
+		E53C0D341D41BB5400A0F6F5 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		E53C0D351D41BB5400A0F6F5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E53C0D361D41BB5400A0F6F5 /* Expand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expand.swift; sourceTree = "<group>"; };
+		E53C0D371D41BB5400A0F6F5 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		E53C0D381D41BB5400A0F6F5 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E53C0D391D41BB5400A0F6F5 /* SecondaryListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryListController.swift; sourceTree = "<group>"; };
+		E53C0D431D41BBBB00A0F6F5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF62BC1A262A7403D91CC842 /* Pods_Font.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76E571A6076B9F176A39175D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7551A3FBC3D10B62B64BD3 /* Pods_Font.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6984E0CD45E6BF25016B0B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6CDA930F0E3761B318869F7 /* Pods-Font.debug.xcconfig */,
+				04D9FBA5E6D6CE1AD9DE4C8A /* Pods-Font.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E53C0D131D41B96800A0F6F5 = {
 			isa = PBXGroup;
 			children = (
 				E53C0D1E1D41B96800A0F6F5 /* Font */,
 				E53C0D1D1D41B96800A0F6F5 /* Products */,
+				B6984E0CD45E6BF25016B0B2 /* Pods */,
+				76E571A6076B9F176A39175D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,59 @@
 		E53C0D1E1D41B96800A0F6F5 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				E53C0D1F1D41B96800A0F6F5 /* AppDelegate.swift */,
-				E53C0D211D41B96800A0F6F5 /* ViewController.swift */,
-				E53C0D231D41B96800A0F6F5 /* Main.storyboard */,
+				E53C0D321D41BB1100A0F6F5 /* Source */,
+				E53C0D311D41BB0300A0F6F5 /* Ohter */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E53C0D311D41BB0300A0F6F5 /* Ohter */ = {
+			isa = PBXGroup;
+			children = (
+				E53C0D331D41BB5400A0F6F5 /* Font-Bridging-Header.h */,
 				E53C0D261D41B96800A0F6F5 /* Assets.xcassets */,
 				E53C0D281D41B96800A0F6F5 /* LaunchScreen.storyboard */,
 				E53C0D2B1D41B96800A0F6F5 /* Info.plist */,
 			);
-			path = Font;
+			name = Ohter;
+			sourceTree = "<group>";
+		};
+		E53C0D321D41BB1100A0F6F5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E53C0D431D41BBBB00A0F6F5 /* AppDelegate.swift */,
+				E53C0D411D41BB6700A0F6F5 /* Expand */,
+				E53C0D401D41BB6000A0F6F5 /* View */,
+				E53C0D421D41BB7000A0F6F5 /* Controller */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E53C0D401D41BB6000A0F6F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E53C0D341D41BB5400A0F6F5 /* Cell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E53C0D411D41BB6700A0F6F5 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				E53C0D361D41BB5400A0F6F5 /* Expand.swift */,
+			);
+			name = Expand;
+			sourceTree = "<group>";
+		};
+		E53C0D421D41BB7000A0F6F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E53C0D351D41BB5400A0F6F5 /* DetailViewController.swift */,
+				E53C0D371D41BB5400A0F6F5 /* ListTableViewController.swift */,
+				E53C0D391D41BB5400A0F6F5 /* SecondaryListController.swift */,
+				E53C0D381D41BB5400A0F6F5 /* RootViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53C0D2E1D41B96800A0F6F5 /* Build configuration list for PBXNativeTarget "Font" */;
 			buildPhases = (
+				E271FD708B6339BFFB00FE61 /* [CP] Check Pods Manifest.lock */,
 				E53C0D181D41B96800A0F6F5 /* Sources */,
 				E53C0D191D41B96800A0F6F5 /* Frameworks */,
 				E53C0D1A1D41B96800A0F6F5 /* Resources */,
+				BB4680652606AE7B663AF8CC /* [CP] Embed Pods Frameworks */,
+				AA0D1059575CE15C03117EC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,33 +205,77 @@
 			files = (
 				E53C0D2A1D41B96800A0F6F5 /* LaunchScreen.storyboard in Resources */,
 				E53C0D271D41B96800A0F6F5 /* Assets.xcassets in Resources */,
-				E53C0D251D41B96800A0F6F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA0D1059575CE15C03117EC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Font/Pods-Font-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4680652606AE7B663AF8CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Font/Pods-Font-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E271FD708B6339BFFB00FE61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E53C0D181D41B96800A0F6F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53C0D221D41B96800A0F6F5 /* ViewController.swift in Sources */,
-				E53C0D201D41B96800A0F6F5 /* AppDelegate.swift in Sources */,
+				E53C0D3E1D41BB5400A0F6F5 /* RootViewController.swift in Sources */,
+				E53C0D3A1D41BB5400A0F6F5 /* Cell.swift in Sources */,
+				E53C0D3F1D41BB5400A0F6F5 /* SecondaryListController.swift in Sources */,
+				E53C0D3B1D41BB5400A0F6F5 /* DetailViewController.swift in Sources */,
+				E53C0D441D41BBBB00A0F6F5 /* AppDelegate.swift in Sources */,
+				E53C0D3C1D41BB5400A0F6F5 /* Expand.swift in Sources */,
+				E53C0D3D1D41BB5400A0F6F5 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E53C0D231D41B96800A0F6F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E53C0D241D41B96800A0F6F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E53C0D281D41B96800A0F6F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,23 +374,32 @@
 		};
 		E53C0D2F1D41B96800A0F6F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CDA930F0E3761B318869F7 /* Pods-Font.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Font/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucky.Font;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Font/Font-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E53C0D301D41B96800A0F6F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D9FBA5E6D6CE1AD9DE4C8A /* Pods-Font.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Font/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucky.Font;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Font/Font-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +422,7 @@
 				E53C0D301D41B96800A0F6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
