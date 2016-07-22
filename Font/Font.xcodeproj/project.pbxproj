@@ -87,6 +87,7 @@
 		E53C0D1E1D41B96800A0F6F5 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				E53C0D431D41BBBB00A0F6F5 /* AppDelegate.swift */,
 				E53C0D321D41BB1100A0F6F5 /* Source */,
 				E53C0D311D41BB0300A0F6F5 /* Ohter */,
 			);
@@ -107,7 +108,6 @@
 		E53C0D321D41BB1100A0F6F5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E53C0D431D41BBBB00A0F6F5 /* AppDelegate.swift */,
 				E53C0D411D41BB6700A0F6F5 /* Expand */,
 				E53C0D401D41BB6000A0F6F5 /* View */,
 				E53C0D421D41BB7000A0F6F5 /* Controller */,
